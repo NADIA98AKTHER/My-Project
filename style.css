@@ -1,0 +1,292 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+
+
+.navbar-collapse {
+   
+    flex-grow: 0!important;
+    
+}
+#nav-bar{
+	position: sticky;
+	top: 0;
+
+}
+
+.navbar{
+	background-image:linear-gradient(to right, #a517ba, #5f1782);
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+
+.navbar-nav{
+	    padding-right: 50px;
+}
+.navbar-light .navbar-brand {
+    color: #f8f9fa !important;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.navbar-toggler{
+    font-size: 20px !important;
+    background-color: white !important;
+}
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+
+    color: white;
+
+}
+.col-md-6 h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 150px;
+
+    
+    
+}
+.col-md-6 a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+   text-align: left;
+   
+
+}
+.col-md-6 a:hover{
+    color: yellow;
+}
+.tutorial {
+    padding-top: 20 px;
+    font-weight: bold;
+    text-align: center;
+}
+a.tutorial {
+    padding-right: 25px;
+   padding-top: 200px;
+
+}
+.wave{
+    width: 100%;
+    max-height: 100%;
+}
+
+img.pic{
+    max-width: 100%;
+}
+.col-md-6 {
+    width: 100px;
+}
+@media(max-width: 700px){
+    .col-md-6 h1{
+        font-size: 35px;
+    }
+}
+img.ser1{
+    max-width: 150px;
+   align-items: center;
+}
+h3.sh1{
+    margin-top: 30px;
+    padding-left: -10px;
+  
+}
+img.ser2{
+    max-width: 150px;
+   align-items: center;
+}
+img.ser3{
+    max-width: 150px;
+   align-items: center;
+}
+h3.sh2{
+    margin-top: 30px;
+    padding-left: -10px;
+  
+}
+h3.sh3{
+    margin-top: 30px;
+    padding-left: 10px;
+  
+}
+p.sh1{
+    text-align: center;
+}
+.row {
+    text-align: center;
+}
+section#Services {
+    margin-top: 50px;
+        padding-top: 100px;
+}
+.col-md-6 p{
+    text-align: left;
+    padding-left: 25px;
+}
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#Services .btn1{
+    text-align: center;
+        margin-left: 570px;
+  
+}
+.btn1{
+    background-image:linear-gradient(to right, #a517ba, #5f1782);
+    color: white ;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+h1.why {
+    text-align: center;
+    padding-top: 60px;
+    text-decoration: underline;
+    text-decoration-color: #a517ba;
+    font-weight: bold;
+}
+ul {
+    text-align: left;
+  padding-left: 12px;
+}
+
+h1.about {
+    font-size: 35px;
+    font-weight: 600;
+         margin-top: 70px;
+}
+
+img.imgnet {
+    max-width: 400px;
+}
+ol, ul {
+    padding-left: 11rem !important;
+    }
+ @media(max-width: 700px){
+    .why{
+       font-size: 40px;
+       padding-left: 2px;
+       max-width: 100%;
+       padding-top: 0px !important;
+        }
+      
+   
+     ul {
+    padding-left: 3rem !important ;
+    }
+ }
+ p.find-us {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 70px;
+}
+img.icon1 {
+    max-width: 70px;
+}
+img.icon2 {
+    max-width: 70px;
+}
+img.icon3 {
+    max-width: 70px;
+}
+img.icon4 {
+    max-width: 70px;
+}
+.media-icon {
+    padding-left: 510px;
+    transition: 0.5s;
+}
+
+#navbarNav ul li:hover{
+    text-decoration: overline;
+    text-decoration-color: orange !important;
+}
+.media-icon :hover{
+    transform:  translateY(-10px);
+}
+@media(max-width: 700px){
+    .media-icon{
+        padding-left: 50px;
+    }
+}
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    width: 100%;
+    max-height: 90%;
+}
+.footer-title{
+    color: white;
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 25px;
+}
+.p{
+        color: white;
+
+}
+.contact{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.Footer-news{
+    color: white;
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.dhaka{
+    color: white;
+}
+.address{
+    color: white;
+}
+.Phone{
+    color: white;
+}
+.gmail{
+    color: white;
+}
+.Footer-find{
+    color: white;
+      font-size: 30px;
+    font-weight: 600;
+}
+
+@media(max-width: 700px){
+    p.find-us{
+        font-size: 30px;
+    }
+@media (max-width: 700px)
+.why {
+    font-size: 30px;
+    padding-left: 2px;
+    max-width: 100%;
+    font-weight: bold;
+    
+
+}
+
+
+
+
